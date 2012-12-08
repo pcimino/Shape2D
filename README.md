@@ -20,7 +20,7 @@ See the example and try it out at JSFiddle: http://jsfiddle.net/pcimino/VW2QV/
 Draw multiple attached line segments, with the option to close the shape and fill it. You can try it out on JSFiddle: http://jsfiddle.net/pcimino/ssax7/
 
 # PolyCurve
-
-NOT READY for prime time. Having issues with properties not taking. The only way it renders visibly is if the shape is closed and filled.
+## NOT READY for prime time. 
+Having issues with properties not taking. The only way it renders visibly is if the shape is closed and filled.
 JSFiddle: http://jsfiddle.net/pcimino/9Qftb/
 

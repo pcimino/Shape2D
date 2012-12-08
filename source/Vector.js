@@ -5,7 +5,7 @@
  * Angle 0 is at 3 o'clock, for Canvas, angles move clockwise, default for this shape obj is antiClockwise true
  */
 enyo.kind({
-	name: "shape2D.Vector",
+	name: "tld.shape2D.Vector",
 	kind: enyo.canvas.Shape,
     lineCap: "square", // butt, square, round
     angle: 0,
@@ -74,17 +74,17 @@ enyo.kind({
         {name: "canvasSpace",
         kind: "canvas.Control",
         components: [
-            {name: "vect1", kind: "shape2D.Vector", angle: 0, startPoint:{x: 100, y: 200}, endDistance: 100, outlineColor:"red", lineCap :"round"},
-            {name: "vect1", kind: "shape2D.Vector", angle: 30, startPoint:{x: 100, y: 200}, endDistance: 100, outlineColor:"blue", lineCap :"round"},
-            {name: "vect1", kind: "shape2D.Vector", angle: 60, startPoint:{x: 100, y: 200}, endDistance: 100, outlineColor:"purple", lineCap :"round"},
+            {name: "vect1", kind: "tld.shape2D.Vector", angle: 0, startPoint:{x: 100, y: 200}, endDistance: 100, outlineColor:"red", lineCap :"round"},
+            {name: "vect1", kind: "tld.shape2D.Vector", angle: 30, startPoint:{x: 100, y: 200}, endDistance: 100, outlineColor:"blue", lineCap :"round"},
+            {name: "vect1", kind: "tld.shape2D.Vector", angle: 60, startPoint:{x: 100, y: 200}, endDistance: 100, outlineColor:"purple", lineCap :"round"},
             
             // Ticks around a clock
-            {name: "vect2", kind: "shape2D.Vector", angle: 0, startPoint:{x: 400, y: 500}, startDistance: 100, endDistance:200, outlineColor:"green", lineWidth:10},
-            {name: "vect2", kind: "shape2D.Vector", angle: 18, startPoint:{x: 400, y: 500}, startDistance: 100, endDistance:200, outlineColor:"green", lineWidth:10},
-            {name: "vect2", kind: "shape2D.Vector", angle: 36, startPoint:{x: 400, y: 500}, startDistance: 100, endDistance:200, outlineColor:"green", lineWidth:10},
-            {name: "vect2", kind: "shape2D.Vector", angle: 54, startPoint:{x: 400, y: 500}, startDistance: 100, endDistance:200, outlineColor:"green", lineWidth:10},
-            {name: "vect2", kind: "shape2D.Vector", angle: 72, startPoint:{x: 400, y: 500}, startDistance: 100, endDistance:200, outlineColor:"green", lineWidth:10},
-            {name: "vect2", kind: "shape2D.Vector", angle: 90, startPoint:{x: 400, y: 500}, startDistance: 100, endDistance:200, outlineColor:"green", lineWidth:10}
+            {name: "vect2", kind: "tld.shape2D.Vector", angle: 0, startPoint:{x: 400, y: 500}, startDistance: 100, endDistance:200, outlineColor:"green", lineWidth:10},
+            {name: "vect2", kind: "tld.shape2D.Vector", angle: 18, startPoint:{x: 400, y: 500}, startDistance: 100, endDistance:200, outlineColor:"green", lineWidth:10},
+            {name: "vect2", kind: "tld.shape2D.Vector", angle: 36, startPoint:{x: 400, y: 500}, startDistance: 100, endDistance:200, outlineColor:"green", lineWidth:10},
+            {name: "vect2", kind: "tld.shape2D.Vector", angle: 54, startPoint:{x: 400, y: 500}, startDistance: 100, endDistance:200, outlineColor:"green", lineWidth:10},
+            {name: "vect2", kind: "tld.shape2D.Vector", angle: 72, startPoint:{x: 400, y: 500}, startDistance: 100, endDistance:200, outlineColor:"green", lineWidth:10},
+            {name: "vect2", kind: "tld.shape2D.Vector", angle: 90, startPoint:{x: 400, y: 500}, startDistance: 100, endDistance:200, outlineColor:"green", lineWidth:10}
         ]}
     ]
 });

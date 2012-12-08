@@ -2,7 +2,7 @@
  * Canvas implementation of Line
  */
 enyo.kind({
-	name: "shape2D.Line",
+	name: "tld.shape2D.Line",
 	kind: enyo.canvas.Shape,
     lineCap: "square", // butt, square, round
     startPoint: {
@@ -44,8 +44,8 @@ enyo.kind({
         {name: "canvasSpace",
         kind: "canvas.Control",
         components: [
-            {name: "line1", kind: "shape2D.Line", outlineColor:"red", lineCap :"round"},
-            {name: "line2", kind: "shape2D.Line", startPoint:{x: 100, y: 400}, endPoint:{x: 200, y: 200},outlineColor:"green", lineWidth:10}
+            {name: "line1", kind: "tld.shape2D.Line", outlineColor:"red", lineCap :"round"},
+            {name: "line2", kind: "tld.shape2D.Line", startPoint:{x: 100, y: 400}, endPoint:{x: 200, y: 200},outlineColor:"green", lineWidth:10}
         ]}
     ]
 });
