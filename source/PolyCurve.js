@@ -8,7 +8,7 @@
  * uses quadratic curve by default, can set bezierFlag
  */
 enyo.kind({
-    name: "tld.shape2D.PolyCurve",
+    name: "tld.Shape2D.PolyCurve",
     kind: "enyo.canvas.Shape",
     lineCap: "square", // butt, square, round
     xPoints: [0,10,20,30],
@@ -77,7 +77,7 @@ enyo.kind({
         {name: "canvasSpace",
         kind: "canvas.Control",
         components: [
-            {name: "poly1", kind: "tld.shape2D.PolyCurve", xPoints:[100,200,250,270,340,350,400,500,600,700,750,775,780,800], yPoints:[250,350,300,350,200,100,200,300,200,100,200,180,190,195]}
+            {name: "poly1", kind: "tld.Shape2D.PolyCurve", xPoints:[100,200,250,270,340,350,400,500,600,700,750,775,780,800], yPoints:[250,350,300,350,200,100,200,300,200,100,200,180,190,195]}
 
         ]}
     ]

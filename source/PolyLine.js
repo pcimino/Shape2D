@@ -4,7 +4,7 @@
  * To fill polygon use fill:true;
  */
 enyo.kind({
-    name: "tld.shape2D.PolyLine",
+    name: "tld.Shape2D.PolyLine",
     kind: "enyo.canvas.Shape",
     lineCap: "square", // butt, square, round
     xPoints: [0,10,10,0],
@@ -50,8 +50,8 @@ enyo.kind({
         {name: "canvasSpace",
         kind: "canvas.Control",
         components: [
-            {name: "poly1", kind: "tld.shape2D.PolyLine", xPoints:[100,200,350], yPoints:[250,350,300], outlineColor:"red", color:"blue"},
-            {name: "poly2", kind: "tld.shape2D.PolyLine", xPoints:[300,500,650], yPoints:[250,350,300], outlineColor:"red", closePathFlag:false}
+            {name: "poly1", kind: "tld.Shape2D.PolyLine", xPoints:[100,200,350], yPoints:[250,350,300], outlineColor:"red", color:"blue"},
+            {name: "poly2", kind: "tld.Shape2D.PolyLine", xPoints:[300,500,650], yPoints:[250,350,300], outlineColor:"red", closePathFlag:false}
 
         ]}
     ]

@@ -3,7 +3,7 @@
  * Added the ability to use degress (default) or radians
  */
 enyo.kind({
-	name: "tld.shape2D.Arc",
+	name: "tld.Shape2D.Arc",
 	kind: "enyo.canvas.Shape",
     lineWidth: 1,
     outlineColor: "black",
@@ -48,10 +48,10 @@ enyo.kind({
         {name: "canvasSpace",
         kind: "canvas.Control",
         components: [
-            {name: "arc1", kind: "tld.shape2D.Arc", startAngle: 0, endAngle:140, radius: 60, x: 100, y: 400, outlineColor:"red", lineCap :"round", antiClockwise:true},
-            {name: "arc2", kind: "tld.shape2D.Arc", startAngle: 45, endAngle:90, radius: 60, x: 100, y: 400,outlineColor:"green", lineWidth:10, antiClockwise:false},
-            {name: "arc3", kind: "tld.shape2D.Arc", startAngle: 90, endAngle:0, radius: 60, x: 300, y: 200,outlineColor:"blue", lineWidth:10, antiClockwise:true},
-            {name: "arc4", kind: "tld.shape2D.Arc", startAngle: 180, endAngle:90, radius: 60, x: 420, y: 200,outlineColor:"purple", lineWidth:10, antiClockwise:true}
+            {name: "arc1", kind: "tld.Shape2D.Arc", startAngle: 0, endAngle:140, radius: 60, x: 100, y: 400, outlineColor:"red", lineCap :"round", antiClockwise:true},
+            {name: "arc2", kind: "tld.Shape2D.Arc", startAngle: 45, endAngle:90, radius: 60, x: 100, y: 400,outlineColor:"green", lineWidth:10, antiClockwise:false},
+            {name: "arc3", kind: "tld.Shape2D.Arc", startAngle: 90, endAngle:0, radius: 60, x: 300, y: 200,outlineColor:"blue", lineWidth:10, antiClockwise:true},
+            {name: "arc4", kind: "tld.Shape2D.Arc", startAngle: 180, endAngle:90, radius: 60, x: 420, y: 200,outlineColor:"purple", lineWidth:10, antiClockwise:true}
         ]}
     ]
 });
