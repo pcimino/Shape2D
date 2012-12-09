@@ -7,7 +7,7 @@
 enyo.kind({
 	name: "tld.Shape2D.Vector",
 	kind: enyo.canvas.Shape,
-    lineCap: "square", // butt, square, round
+    lineCap: "butt", // butt, square, round
     angle: 0,
     useDegrees: true,
     antiClockwise: true,

@@ -8,7 +8,7 @@ enyo.kind({
     lineWidth: 1,
     outlineColor: "black",
     color: "",
-    lineCap: "square", // butt, square, round
+    lineCap: "butt", // butt, square, round
     x: 0, 
     y: 0, 
     radius: 10, 

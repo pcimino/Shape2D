@@ -6,7 +6,7 @@
 enyo.kind({
     name: "tld.Shape2D.PolyLine",
     kind: "enyo.canvas.Shape",
-    lineCap: "square", // butt, square, round
+    lineCap: "butt", // butt, square, round
     xPoints: [0,10,10,0],
     yPoints: [0,0,10,10],
     lineWidth: 10,

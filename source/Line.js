@@ -4,7 +4,7 @@
 enyo.kind({
 	name: "tld.Shape2D.Line",
 	kind: enyo.canvas.Shape,
-    lineCap: "square", // butt, square, round
+    lineCap: "butt", // butt, square, round
     startPoint: {
         x: 580,
         y: 470
