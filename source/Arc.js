@@ -7,7 +7,7 @@ enyo.kind({
 	kind: "enyo.canvas.Shape",
     lineWidth: 1,
     outlineColor: "black",
-    color: "white",
+    color: "",
     lineCap: "square", // butt, square, round
     x: 0, 
     y: 0, 

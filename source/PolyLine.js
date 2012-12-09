@@ -11,7 +11,7 @@ enyo.kind({
     yPoints: [0,0,10,10],
     lineWidth: 10,
     outlineColor: "black",
-    color: "white",
+    color: "",
     closePathFlag: true,
     fillFlag: true,
     //* @protected

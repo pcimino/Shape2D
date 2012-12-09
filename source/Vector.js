@@ -19,7 +19,7 @@ enyo.kind({
     endDistance: 100,
     lineWidth: 10,
     outlineColor: "black",
-    color: "black",
+    color: "",
     //* @protected
     renderSelf: function(ctx) {
         ctx.beginPath();
